@@ -1,0 +1,29 @@
+.button{
+    padding:14px 28px;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.primary{
+    background:var(--primary);
+    color:white;
+}
+
+.primary:hover{
+    background:var(--primary-dark);
+    transform:translateY(-3px);
+}
+
+.outline{
+    border:2px solid var(--primary);
+    color:var(--primary);
+    background:white;
+}
+
+.outline:hover{
+    background:var(--primary);
+    color:white;
+}
