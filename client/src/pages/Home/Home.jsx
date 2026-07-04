@@ -1,8 +1,13 @@
+import Navbar from "../../components/Layout/Navbar/Navbar";
+
 function Home() {
   return (
-    <h1>Welcome to BloodLink</h1>
+    <>
+      <Navbar />
+
+      <div style={{ height: "150vh" }}></div>
+    </>
   );
 }
-
 
 export default Home;
